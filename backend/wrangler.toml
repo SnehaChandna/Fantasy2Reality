@@ -1,0 +1,33 @@
+name = "backend"
+main = "src/index.ts"
+compatibility_date = "2025-01-19"
+
+# compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+DATABASE_URL="prisma://accelerate..net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNTExZjg0NjAtNDRlYS00NTU5LWI0MGUtMDRhMGFiMzE1NmQyIiwidGVuYW50X2lkIjoiZGRlYjUwMTQxMzk2OTU1MGY4YzZjNTE4YzljMDFmNDIzMjQ5NjYwOTMwYTU1M2E3NzI2YTQ5N2ZiZGI3ZDgwYSIsImludGVybmFsX3NlY3JldCI6IjQ5OTY5YTAzLWRlMjEtNGM2ZS1iOTk0LTdjNzg3OTQyYjk0YSJ9.9UkyhLisaPihgRukU1Zn57RR8dXWz3M9azeOPJXxy14"
+JWT_SECRET=""
+GOOGLE_REDIRECT_URI="http://localhost:8787/google/callback"
+GOOGLE_CLIENT_ID="931514081916.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET="GOCSPXCZUptx7MeHh8HBhCG1G_D5k"
+GOOGLE_API="AIzaSyCt3E_VKZUb5NbAUrH75Lhn4VwQo"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1

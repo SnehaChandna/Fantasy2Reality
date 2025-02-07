@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve fantasy2reality
+After=network.target
+
+[Service]
+User=student1
+Group=student1
+WorkingDirectory=/home/student1/langchain/testing/server
+Environment="PATH=/home/student1/miniconda3/envs/testing_llmbackend/bin"
+ExecStart=/home/student1/miniconda3/envs/testing_llmbackend/bin/gunicorn -w 3 -b 127.0.0.1:8000 wsgi:app
+
+[Install]
+WantedBy=multi-user.target

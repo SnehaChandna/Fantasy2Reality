@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Trek" ALTER COLUMN "title" DROP NOT NULL,
+ALTER COLUMN "amenities" DROP NOT NULL;

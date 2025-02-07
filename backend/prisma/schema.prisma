@@ -1,0 +1,55 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          Int      @id @default(autoincrement())
+  firstName   String
+  lastName    String
+  userName    String   @unique
+  password    String
+  likedTours  Int[]     // Array of tour IDs
+  dislikedTours  Int[]
+  likedem     Float[]
+  dislikedem  Float[]
+  comm Trek_comment[]
+  latitude    Float?   // Add this line
+  longitude   Float?   // Add this line
+}
+
+model Trek {
+  tour_id Int @id 
+  route_type String
+  title String?
+  short_description String?
+  long_description String?
+  images Json?
+  map_url String?
+  amenities Json?
+  difficulty String?
+  tags String[]
+  best_months String[]
+  url String
+  cover_image Json?
+  real_tour_id String
+  latitude String
+  longitude String
+  comments Trek_comment[]
+}
+
+model Trek_comment {
+  id Int @id @default(autoincrement())
+  userId   Int
+  user     User   @relation(fields: [userId], references: [id])
+  trekId   Int
+  trek     Trek   @relation(fields: [trekId], references: [tour_id])
+  comment Json
+  createdAt DateTime @default(now())
+
+  @@index([trekId,userId])
+}

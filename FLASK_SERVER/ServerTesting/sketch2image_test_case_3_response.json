@@ -1,0 +1,110 @@
+{
+  "results": [
+    {
+      "caption": null,
+      "date_created": "2024-10-10",
+      "similarity": 0.35283464193344116,
+      "tour_id": "806000672",
+      "url": "https://img.oastatic.com/img2/604696010/320x320c/variant.jpg"
+    },
+    {
+      "caption": "Bird's eye view of Seven Mile Bridge",
+      "date_created": "2017-07-28",
+      "similarity": 0.349088191986084,
+      "tour_id": "23626657",
+      "url": "https://img0.oastatic.com/img2/23627981/320x320c/variant.jpg"
+    },
+    {
+      "caption": null,
+      "date_created": "2017-10-17",
+      "similarity": 0.3360291123390198,
+      "tour_id": "24501183",
+      "url": "https://img3.oastatic.com/img2/24501184/320x320c/variant.jpg"
+    },
+    {
+      "caption": "Obor market, fruit stalls",
+      "date_created": "2022-10-03",
+      "similarity": 0.3360291123390198,
+      "tour_id": "801388359",
+      "url": "https://img1.oastatic.com/img2/74344732/320x320c/variant.png"
+    },
+    {
+      "caption": null,
+      "date_created": null,
+      "similarity": 0.3360291123390198,
+      "tour_id": "802436993",
+      "url": "https://www.outdooractive.com/api/staticmap?i=802436993&size=xlarge"
+    },
+    {
+      "caption": null,
+      "date_created": "2017-07-13",
+      "similarity": 0.3360291123390198,
+      "tour_id": "23418440",
+      "url": "https://img0.oastatic.com/img2/23418441/320x320c/variant.jpg"
+    },
+    {
+      "caption": null,
+      "date_created": "2017-07-13",
+      "similarity": 0.3360291123390198,
+      "tour_id": "23418445",
+      "url": "https://img0.oastatic.com/img2/23418446/320x320c/variant.jpg"
+    },
+    {
+      "caption": null,
+      "date_created": null,
+      "similarity": 0.3360291123390198,
+      "tour_id": "804501903",
+      "url": "https://www.outdooractive.com/api/staticmap?i=804501903&size=xlarge"
+    },
+    {
+      "caption": "Au\u00dfenansicht des Lava-Centers",
+      "date_created": "2017-08-27",
+      "similarity": 0.3360291123390198,
+      "tour_id": "23975712",
+      "url": "https://img3.oastatic.com/img2/23974764/320x320c/variant.jpg"
+    },
+    {
+      "caption": null,
+      "date_created": "2021-01-22",
+      "similarity": 0.3360291123390198,
+      "tour_id": "56038103",
+      "url": "https://img0.oastatic.com/img2/56038096/320x320c/variant.jpg"
+    },
+    {
+      "caption": "Aufstieg beim Croix de Coeur",
+      "date_created": "2017-10-17",
+      "similarity": 0.3360291123390198,
+      "tour_id": "24498180",
+      "url": "https://img0.oastatic.com/img2/24498181/320x320c/variant.jpg"
+    },
+    {
+      "caption": "Wunderbare Trails",
+      "date_created": "2017-10-17",
+      "similarity": 0.3360291123390198,
+      "tour_id": "24498643",
+      "url": "https://img3.oastatic.com/img2/24498644/320x320c/variant.jpg"
+    },
+    {
+      "caption": "View of Olso, B\u00e6rum and Olso fjord from S\u00f8ndre Kols\u00e5stoppen.",
+      "date_created": "2021-01-22",
+      "similarity": 0.3360291123390198,
+      "tour_id": "56036587",
+      "url": "https://img0.oastatic.com/img2/56036581/320x320c/variant.jpg"
+    },
+    {
+      "caption": null,
+      "date_created": "2021-01-22",
+      "similarity": 0.3360291123390198,
+      "tour_id": "56036674",
+      "url": "https://img3.oastatic.com/img2/56036664/320x320c/variant.jpg"
+    },
+    {
+      "caption": null,
+      "date_created": "2021-01-22",
+      "similarity": 0.3360291123390198,
+      "tour_id": "56036675",
+      "url": "https://img3.oastatic.com/img2/56036669/320x320c/variant.jpg"
+    }
+  ],
+  "status": "success"
+}
